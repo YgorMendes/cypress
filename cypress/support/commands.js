@@ -12,7 +12,7 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 Cypress.Commands.add("login", (username) => {
-  cy.visit("http://localhost:3000/");
+  cy.visit("https://vite-host.vercel.app/");
   cy.contains("Entrar na sua conta");
 
   cy.get("#name").click().type(username);
