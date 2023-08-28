@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+"scripts": {
+  "cyopen" : "yarn cypress open"
+}
+}
